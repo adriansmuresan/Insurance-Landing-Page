@@ -41,6 +41,20 @@ h1, h2, h3 {
   flex: 1;
 }
 
+.btn {
+  padding: 10px 15px;
+  background-color: transparent;
+  border: 2px solid #fff;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.btn-reverse {
+  padding: 10px 15px;
+  border: 2px solid var(--dark-violet);
+  color: var(--dark-violet);
+}
+
 /* Nav styling */
 nav {
 
@@ -65,7 +79,8 @@ nav li a {
 
 /* Header styling */
 header {
-
+  background-color: var(--dark-violet);
+  color: #fff;
 }
 
 /* Section styling */
