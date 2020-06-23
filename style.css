@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Karla:wght@400;700&display=swap');
 
+* {
+  box-sizing: border-box;
+}
+
+/* Global color vriables */
 :root {
   --dark-violet: hsl(256, 26%, 20%);
   --greyish-blue: hsl(216, 30%, 68%);
@@ -11,6 +16,7 @@
 body {
   font-family: 'Karla', sans-serif;
   margin: 0;
+  color: var(--dark-violet);
 }
 
 h1, h2, h3 {
@@ -22,12 +28,52 @@ h1, h2, h3 {
   margin: 0 auto;
   max-width: 100%;
   width: 1200px;
+  padding: 20px;
 }
 
 .flex {
   display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
-.flex > * {
+.flex > div {
   flex: 1;
+}
+
+/* Nav styling */
+nav {
+
+}
+
+nav ul {
+  display: flex;
+  list-style-type: none;
+  padding: 0;
+
+}
+
+nav li {
+  margin-left: 30px;
+}
+
+nav li a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: var(--dark-greish-violet);
+}
+
+/* Header styling */
+header {
+
+}
+
+/* Section styling */
+section {
+
+}
+
+/* Footer styling */
+footer {
+
 }
