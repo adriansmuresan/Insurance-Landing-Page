@@ -24,6 +24,12 @@ h1, h2, h3 {
   serif;
 }
 
+h1 {
+  font-size: 4em;
+  letter-spacing: 2px;
+  line-height: 1;
+}
+
 .container {
   margin: 0 auto;
   max-width: 100%;
@@ -42,17 +48,19 @@ h1, h2, h3 {
 }
 
 .btn {
-  padding: 10px 15px;
+  padding: 15px 25px;
   background-color: transparent;
   border: 2px solid #fff;
   color: #fff;
   text-transform: uppercase;
+  letter-spacing: 1.5px;
 }
 
 .btn-reverse {
-  padding: 10px 15px;
+  padding: 15px 25px;
   border: 2px solid var(--dark-violet);
   color: var(--dark-violet);
+  letter-spacing: 1.5px;
 }
 
 /* Nav styling */
@@ -81,6 +89,31 @@ nav li a {
 header {
   background-color: var(--dark-violet);
   color: #fff;
+  position: relative;
+}
+
+header::after {
+  content: '';
+  background-image: url(./images/bg-pattern-intro-right-desktop.svg);
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: top right;
+}
+
+header::before {
+  content: '';
+  background-image: url(./images/bg-pattern-intro-left-desktop.svg);
+  position: absolute;
+  bottom: -40%;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: bottom left;
 }
 
 /* Section styling */
