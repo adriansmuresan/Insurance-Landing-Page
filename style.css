@@ -64,6 +64,10 @@ h1::before {
   align-items: flex-start;
 }
 
+.header-photo {
+  margin-bottom: -250px;
+}
+
 .btn {
   padding: 15px 25px;
   background-color: transparent;
@@ -106,7 +110,9 @@ nav li a {
 header {
   background-color: var(--dark-violet);
   color: #fff;
+  padding: 50px 0;
   position: relative;
+  margin-bottom: 250px;
 }
 
 header::after {
