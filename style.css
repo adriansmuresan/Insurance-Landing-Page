@@ -28,6 +28,19 @@ h1 {
   font-size: 4em;
   letter-spacing: 2px;
   line-height: 1;
+  position: relative;
+  margin: 0;
+  padding-top: 50px;
+}
+
+h1::before {
+  content: '';
+  width: 150px;
+  height: 1px;
+  background-color: #fff;
+  position: absolute;
+  top: 0;
+  left: 0;
 }
 
 .container {
