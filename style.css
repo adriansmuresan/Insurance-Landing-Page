@@ -24,7 +24,7 @@ h1, h2, h3 {
   serif;
 }
 
-h1 {
+h1, h2 {
   font-size: 4em;
   letter-spacing: 2px;
   line-height: 1;
@@ -33,7 +33,7 @@ h1 {
   padding-top: 50px;
 }
 
-h1::before {
+.line-top::before {
   content: '';
   width: 150px;
   height: 1px;
@@ -41,6 +41,10 @@ h1::before {
   position: absolute;
   top: 0;
   left: 0;
+}
+
+.line-purple::before {
+  background-color: var(--dark-violet);
 }
 
 .container {
@@ -131,7 +135,7 @@ header::before {
   content: '';
   background-image: url(./images/bg-pattern-intro-left-desktop.svg);
   position: absolute;
-  bottom: -40%;
+  bottom: -50%;
   left: 0;
   height: 100%;
   width: 100%;
