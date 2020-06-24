@@ -60,6 +60,10 @@ h1::before {
   flex: 1;
 }
 
+.align-start {
+  align-items: flex-start;
+}
+
 .btn {
   padding: 15px 25px;
   background-color: transparent;
