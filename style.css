@@ -186,6 +186,20 @@ header::before {
 /* Footer styling */
 footer {
   background-color: var(--very-light-gray);
+  padding: 30px 0;
+  position: relative;
+}
+
+footer::before {
+  content: '';
+  background-image: url(./images/bg-pattern-footer-desktop.svg);
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: top left;
 }
 
 footer h4 {
@@ -198,6 +212,10 @@ footer ul {
   padding: 0;
 }
 
+footer .flex li {
+  margin-left: 15px;
+}
+
 footer li {
   margin-bottom: 10px;
 }
@@ -206,4 +224,9 @@ footer li a {
   color: var(--very-dark-violet);
   text-decoration: none;
   text-transform: uppercase;
+}
+
+.border-bottom {
+  border-bottom: 1px solid var(--greyish-blue);
+  margin-bottom: 30px;
 }
