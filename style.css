@@ -156,6 +156,7 @@ header::before {
   background-color: var(--dark-violet);
   padding: 70px;
   position: relative;
+  margin: 100px auto;
 }
 
 .bg-violet::before {
@@ -174,7 +175,8 @@ header::before {
 .bg-violet h2 {
   color: #fff;
   padding: 0;
-  width: 70%;
+  width: 60%;
+  font-size: 3em;
 }
 
 .tile {
@@ -183,5 +185,25 @@ header::before {
 
 /* Footer styling */
 footer {
+  background-color: var(--very-light-gray);
+}
 
+footer h4 {
+  text-transform: uppercase;
+  color: var(--dark-greish-violet);
+}
+
+footer ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+footer li {
+  margin-bottom: 10px;
+}
+
+footer li a {
+  color: var(--very-dark-violet);
+  text-decoration: none;
+  text-transform: uppercase;
 }
