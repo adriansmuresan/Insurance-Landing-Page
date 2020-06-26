@@ -33,6 +33,14 @@ h1, h2 {
   padding-top: 50px;
 }
 
+h3 {
+  font-size: 2em;
+}
+
+p {
+  opacity: 0.8;
+}
+
 .line-top::before {
   content: '';
   width: 150px;
@@ -146,6 +154,10 @@ header::before {
 /* Section styling */
 section {
 
+}
+
+.tile {
+  margin-top: 80px;
 }
 
 /* Footer styling */
