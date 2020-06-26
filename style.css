@@ -152,8 +152,29 @@ header::before {
 }
 
 /* Section styling */
-section {
+.bg-violet {
+  background-color: var(--dark-violet);
+  padding: 70px;
+  position: relative;
+}
 
+.bg-violet::before {
+  content: '';
+  background-image: url(./images/bg-pattern-how-we-work-desktop.svg);
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: top right;
+  background-size: 50% 100%;
+}
+
+.bg-violet h2 {
+  color: #fff;
+  padding: 0;
+  width: 70%;
 }
 
 .tile {
