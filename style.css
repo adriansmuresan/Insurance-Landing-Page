@@ -240,4 +240,18 @@ footer li a {
   footer .flex div {
     width: 100%;
   }
+
+  .bg-violet {
+    background-image: url(./images/bg-pattern-how-we-work-mobile.svg);
+  }
+
+  .bg-violet h2 {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .line-top::before {
+    left: 50%;
+    transform: translateX(-50%);
+  }
 }
