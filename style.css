@@ -198,7 +198,7 @@ footer ul {
   padding: 0;
 }
 
-footer .flex li {
+footer ul.flex li {
   margin-left: 15px;
 }
 
