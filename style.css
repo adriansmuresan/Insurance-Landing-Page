@@ -38,6 +38,7 @@ h3 {
 }
 
 p {
+  line-height: 1.7;
   opacity: 0.8;
 }
 
@@ -59,7 +60,7 @@ p {
   margin: 0 auto;
   max-width: 100%;
   width: 1200px;
-  padding: 20px;
+  padding: 0 20px;
 }
 
 .flex {
@@ -77,6 +78,7 @@ p {
 }
 
 .header-photo {
+  max-width: 100%;
   margin-bottom: -250px;
 }
 
@@ -253,5 +255,19 @@ footer li a {
   .line-top::before {
     left: 50%;
     transform: translateX(-50%);
+  }
+
+  .reverse-mobile {
+    flex-direction: column-reverse;
+  }
+
+  .header-photo {
+    display: inline-block;
+    margin-left: -20px;
+    margin-bottom: -10px;
+    max-width: calc(100% + 40px);
+  }
+  header {
+    padding-top: 0;
   }
 }
