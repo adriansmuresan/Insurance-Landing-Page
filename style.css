@@ -88,6 +88,7 @@ p {
   text-transform: uppercase;
   letter-spacing: 1.5px;
   cursor: pointer;
+  display: inline-block;
 }
 
 .btn-reverse {
@@ -215,4 +216,14 @@ footer li a {
 .border-bottom {
   border-bottom: 1px solid var(--greyish-blue);
   margin-bottom: 30px;
+}
+
+@media screen and (max-width: 768px) {
+  body {
+    text-align: center;
+  }
+
+  .flex {
+    flex-direction: column;
+  }
 }
