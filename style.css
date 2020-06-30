@@ -113,6 +113,7 @@ nav {
 
 nav ul {
   display: flex;
+  align-items: center;
   list-style-type: none;
   padding: 0;
 
@@ -132,6 +133,10 @@ nav .hamburger {
   display: none;
 }
 
+nav .hamburger:focus {
+  outline: none;
+}
+
 /* Header styling */
 header {
   background-color: var(--dark-violet);
@@ -139,6 +144,7 @@ header {
   padding: 50px 0;
   position: relative;
   margin-bottom: 250px;
+  margin-top: 80px;
 }
 header * {
   z-index: 1;
