@@ -100,6 +100,17 @@ p {
   letter-spacing: 1.5px;
 }
 
+nav ul li:hover {
+  font-weight: 700;
+  color: var(--very-dark-violet);
+}
+
+.btn-reverse:hover {
+  background-color: var(--very-dark-violet);
+  color: #fff;
+}
+
+
 /* Nav styling */
 nav {
   padding: 20px 0;
@@ -141,11 +152,12 @@ nav .hamburger:focus {
 header {
   background-color: var(--dark-violet);
   color: #fff;
-  padding: 50px 0;
+  padding: 80px 0;
   position: relative;
   margin-bottom: 250px;
   margin-top: 80px;
 }
+
 header * {
   z-index: 1;
 }
@@ -176,6 +188,11 @@ header::before {
   z-index: 0;
 }
 
+header button.btn:hover {
+  background-color: #fff;
+  color: var(--very-dark-violet);
+}
+
 /* Section styling */
 .bg-violet {
   background-color: var(--dark-violet);
@@ -196,6 +213,11 @@ header::before {
 
 .tile {
   margin-top: 80px;
+}
+
+.bg-violet button.btn:hover {
+  background-color: #fff;
+  color: var(--very-dark-violet);
 }
 
 /* Footer styling */
@@ -229,6 +251,15 @@ footer li a {
   color: var(--very-dark-violet);
   text-decoration: none;
   text-transform: uppercase;
+}
+
+footer li a:hover {
+  text-decoration: underline;
+}
+
+footer ul.flex li img:hover {
+  background-color: var(--very-dark-violet);
+  cursor: pointer;
 }
 
 .border-bottom {
