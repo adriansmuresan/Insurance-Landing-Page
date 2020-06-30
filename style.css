@@ -275,4 +275,16 @@ footer li a {
   header::after, header::before {
     display: none;
   }
+
+  nav .flex {
+    flex-direction: row;
+  }
+
+  nav ul {
+    display: none;
+  }
+
+  nav .image-wrapper {
+    text-align: left;
+  }
 }
