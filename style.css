@@ -102,7 +102,7 @@ p {
 
 /* Nav styling */
 nav {
-
+  padding: 20px 0;
 }
 
 nav ul {
@@ -267,7 +267,12 @@ footer li a {
     margin-bottom: -10px;
     max-width: calc(100% + 40px);
   }
+
   header {
     padding-top: 0;
+  }
+
+  header::after, header::before {
+    display: none;
   }
 }
