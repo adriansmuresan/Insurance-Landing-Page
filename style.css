@@ -122,6 +122,10 @@ nav li a {
   color: var(--dark-greish-violet);
 }
 
+nav .hamburger {
+  display: none;
+}
+
 /* Header styling */
 header {
   background-color: var(--dark-violet);
@@ -286,5 +290,12 @@ footer li a {
 
   nav .image-wrapper {
     text-align: left;
+  }
+
+  nav .hamburger {
+    display: flex;
+    background-color: transparent;
+    border: 0;
+    cursor: pointer;
   }
 }
